@@ -1,0 +1,51 @@
+    html{
+        height: 100%;
+    }
+    body{
+        background-image: url(assets/css/background/fix.png);
+        background-size: cover; 
+        height: 100%;
+    }
+    @keyframes warna{
+        0%{
+
+        }
+    }
+    .boxlog{
+        position: absolute;
+        margin-left: 60%;
+        margin-top:7%;
+        background-image: url(assets/css/background/clip.png);
+        background-size: 400px 510px ; 
+        height: 490px;
+        width: 380px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+    }
+    table{
+        margin-left: 10px;
+    }
+    .btn {
+        -moz-box-shadow:inset 0px 1px 0px 0px #000000;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #000000;
+        box-shadow:inset 0px 1px 0px 0px #000000;
+        background-color:transparent;
+        border:1px solid #000000;
+        display:inline-block;
+        cursor:pointer;
+        color:#000000;
+        font-family:Arial;
+        font-size:13px;
+        font-weight:bold;
+        padding:6px 12px;
+        text-decoration:none;
+    }
+    .btn:hover {
+        background-color:transparent;
+    }
+    .btn:active {
+        position:relative;
+        top:1px;
+    }
+    
+     

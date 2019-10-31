@@ -1,0 +1,233 @@
+	body{
+		background-image: url(assets/css/background/cloud.gif);
+		
+		height: 100%;
+	}
+
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+		margin: 0;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	/* End of Eric Meyer's CSS Reset */
+
+	html {
+		height: 100%;
+	}
+	article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+		display: block;
+	}
+	body {
+		width: 100%;
+		height: 100%;
+	}
+	.wrapper {
+		width: 100%;
+		margin: 0 auto;
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+	}
+
+
+
+	/* Header
+	-----------------------------------------------------------------------------*/
+	.header {
+		margin-bottom: 50px;
+		background-color: white;
+		box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.75);
+		border-bottom: 5px solid #A4A4A4;
+	}
+
+
+	/* Middle
+	-----------------------------------------------------------------------------*/
+	.middle {
+		width: 100%;
+		padding: 0 0 100px;
+		position: relative;
+	}
+	.middle:after {
+		display: table;
+		clear: both;
+		content: '';
+	}
+	.container {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+	.content {
+		padding: 0 270px 0 270px;
+		
+	}
+	.content .isi{
+		margin:25px;
+		box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+		border-radius: 10px;
+		padding: 10px;
+		background-color: rgba(255, 255, 255, 0.507);
+		min-height: 1000px;
+	}
+	.content .supdate{
+		margin-bottom: 0;
+		margin:25px;
+		box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+		border-radius: 10px;
+		padding: 10px;
+		overflow: hidden;
+		background-color: white;
+	}
+	.up{
+		float: left;
+		background-size: cover;
+		width: 50px;
+		height: 50px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		border-radius: 50px; 	
+	}
+	.up {
+		background-image: url("prof.jpg");
+	}
+	.kls{
+		display: block;
+	}
+	.content .supdate h2{
+		vertical-align: middle ;
+	}
+	.boxtext{
+		background: rgb(255, 255, 255);
+		border-radius: 40px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
+		box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+		padding: 3%;
+		margin-bottom: 5%;
+	}
+
+	/* Left Sidebar
+	-----------------------------------------------------------------------------*/
+	.left-sidebar {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 40px;
+		text-align: center;
+		float: left;
+		width: 250px;
+		margin-top: 10px;
+		margin-left: -100%;
+		position: relative;
+		background: rgb(240, 240, 240);
+		border: 2px solid rgb(187, 187, 187);
+		border-radius: 30px;
+		box-shadow: -1px 3px 19px 6px rgba(0,0,0,0.75);
+	}
+	@media screen and (max-width: 979px){
+		
+	}
+	.left-sidebar h2{
+		margin-top: 5px; 
+		margin-bottom: 0;
+	}
+	.left-sidebar h3{
+		margin-top:2px;
+		font-size: 15px;
+	}
+	.left-sidebar .info{
+		font-weight: 700;
+		text-align: left;
+		font-size: 20px;
+		margin-left: 15px;
+		color: rgb(117, 117, 117);
+		
+	}
+	.left-sidebar a{
+		text-decoration: none;	
+	}
+	.photo{
+		background-image: url("prof.jpg");
+		background-size: cover;
+		border-radius: 50px;  
+		height: 200px;
+		margin-top:5px; 
+		width: 230px;
+
+
+
+	}
+	.logout{
+		text-decoration: none;
+		font-size: 25px;
+		color: gray;
+	}
+
+
+	/* Right Sidebar
+	-----------------------------------------------------------------------------*/
+	.right-sidebar {
+		float: left;
+		width: 250px;
+		margin-left: -250px;
+		position: relative;
+		background: rgb(255, 255, 255);
+		border-radius: 30px;
+	}
+
+
+	/* Footer
+	-----------------------------------------------------------------------------*/
+	.footer {
+		bottom: 0;
+		width: 100%;
+		margin: -100px auto 0;
+		height: 100px;
+		background: rgb(255, 255, 255);
+		position: relative;
+		box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.75);
+		z-index: 1;
+	}
+	.bgfoot{
+		bottom: 0;
+		position: relative;
+		width: 100%; 
+		height: 400px;
+		background-image: url(assets/css/background/timeline/bgtimeline.png); 
+		z-index: 1;
+	}
+	.rnav{
+		float:right;
+		background-color: rgba(228, 228, 228, 0.774);
+		height: 65px;
+		vertical-align: middle;
+		padding:5px;
+	}
+	.rnav a{
+		text-decoration: none;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 1.3vw;
+		font-weight: 700;
+		color: black;
+		height: 67px;
+		margin-top: 25px;
+	}
+	.link{
+		margin-top:15%;
+	}

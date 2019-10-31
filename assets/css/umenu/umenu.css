@@ -1,0 +1,130 @@
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+body {
+  margin: 0;
+  
+}
+#parallax-container {
+  height: 1000px;
+  display: block;
+}
+#parallax-container div {
+  position: fixed;
+  top: 0;
+  background-position: center !important;
+  transform: translateY(0px);
+  height: 1000px;
+  width: 100%;
+}
+#conten{
+  position: relative;
+  background-color: #000d0b;
+  color: #ffffff;
+  padding: 100px;
+}
+#conten .head{
+  text-align: center;
+  font-family: sans-serif;
+
+}
+#conten .head h1{
+  font-size: 100px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+#conten .head h2{
+  margin-top: 0;
+  font-weight: 800;
+  color: #268ede;
+}
+#conten .box{
+  float: left;
+  width: 50%;
+}
+#conten .boxright{
+  float: right;
+  width: 50%;
+}
+#biobox{
+  text-shadow: 4px 2px 5px #000000;
+  position: relative;
+  background: white url(../image/contact.jpg) -5px;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  color: rgb(233, 155, 10);
+  padding: 400px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.btn{
+   border-radius: 11px;
+   color: white;
+   font-weight: 800;
+   font-size: 40px;
+   background-color: #3D94F6;
+   border: solid #337FED 1px;
+   padding: 29px;
+   text-decoration: none;
+}
+.btn:hover{
+  background: rgb(255, 157, 10);
+     background-image: -webkit-linear-gradient(top, #FFF70A, #E3E85C);
+     background-image: -moz-linear-gradient(top, #FFF70A, #E3E85C);
+     background-image: -ms-linear-gradient(top, #FFF70A, #E3E85C);
+     background-image: -o-linear-gradient(top, #FFF70A, #E3E85C);
+     background-image: linear-gradient(to bottom, #FFF70A, #E3E85C);
+     text-decoration: none;
+  text-shadow: 2px 2px 2px rgba(66, 66, 66, 0.842);
+}
+.head-er{
+opacity: 0;
+font-size: 50px;
+transition-duration: 1s;
+}
+.head-isi{
+opacity: 0;
+transform: translate(0,-40px);
+transition: .5s;
+}
+.head-img.kanan, .head-img.kiri{
+opacity: 0;
+transition: .5s;
+}
+.head-img.kiri{
+  transform: translate(50px, 0) rotate(-15deg);
+} 
+.head-img.kanan{
+  transform: translate(-50px, 0) rotate(15deg);
+}
+.head-img.kanan.muncul, .head-img.kiri.muncul{
+  opacity: 1;
+  transform: translate(0,0) rotate(0deg);  
+  }
+.head-er.muncul{
+  font-size: 25px;
+  opacity: 1;
+}
+.head-isi.muncul{
+  opacity: 1;
+  transform: translate(0.0)
+}
+#contact{
+  position: relative;
+  background-color:white;
+  padding: 50px;
+  
+}
+#contact h1{
+  color: #ffffff;
+  -webkit-text-stroke: 2px #000000;
+}
+#contactb{
+  position: relative;
+  background-image: url(../image/team.png);
+  background-attachment: fixed;
+  background-size: cover; 
+}

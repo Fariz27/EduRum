@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text|Raleway');
+
+
+body {
+  margin: 0;
+  background-color: rgb(211, 241, 255);
+}
+.header{
+  margin-top: 0;
+  width: 100%;
+  background-color: rgb(43, 132, 233);
+  padding: 10px;
+}
+.search{
+  background-color: white; 
+  height: 30px;
+  margin: 2px;
+  float: left;
+  padding: 2px;
+  border-radius:20px 
+}
+.search img{
+  float: left; 
+}
+.search input{
+  height: 30px;
+  float: left; 
+  border: none;
+  width: 200px;
+}
+.search input::-webkit-input-placeholder{
+  font-size: 20px;
+  vertical-align: middle;
+}
+.search button{
+  background-color: rgb(43, 132, 233);
+  border-radius: 20px;
+  border: none;
+  height: 30px;     
+  color: white;
+}
+.header .navb .rnav{
+  float: right;
+  margin-right: 20px;
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle; 
+}
+
+
+
+
+
+
+
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  margin: 0;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+  height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+  width: 100%;
+  padding: 0 0 100px;
+  position: relative;
+}
+.middle:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.container {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+.content {
+  padding: 0 0 0 19vw;
+  
+}
+.content .isi{
+  margin:10px;
+
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 1000px;
+}
+.content .supdate{
+  margin-bottom: 0;
+  width: 98%;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+.up{
+  float: left;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 50px; 	
+}
+.up {
+  background-image: url("../../../prof.jpg");
+}
+.kls{
+  display: block;
+}
+.content .supdate h2{
+  vertical-align: middle ;
+}
+.boxtext{
+  background: rgba(235, 235, 235, 0.616);
+  border-radius: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
+  padding: 3%;
+  margin-bottom: 5%;
+}
+textarea{
+  background: rgba(235, 235, 235, 0.616);
+  height: 100px;
+  border: 2px solid rgb(110, 190, 243);
+  border-radius: 20px;
+}
+.feed{
+  background: rgba(235, 235, 235, 0.616);
+  height: 200px;
+  width: 800px;
+  border: 2px solid rgb(110, 190, 243);
+  border-radius: 20px;
+}
+.feedname{
+  background: rgba(235, 235, 235, 0.616);
+  height: 25px;
+  width: 800px;
+  border: 2px solid rgb(110, 190, 243);
+  border-radius: 20px;
+}
+.pilihan{
+  width: 800px;
+}
+#postingann{
+  margin-top:10px;
+  padding: 10px;
+  background: white;
+  width: 98%;
+  border-radius: 20px;
+}
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  float: left;
+  width: 18 vw;
+  margin-left: -100%;
+  position: relative;
+  background: rgb(255, 255, 255);
+
+}
+@media screen and (max-width: 979px){
+  
+}
+.left-sidebar h2{
+  font-size: 4vw;
+  margin-top: 5px; 
+  margin-bottom: 0;
+}
+.left-sidebar h3{
+  margin-top:2px;
+  font-size: 15px;
+}
+.left-sidebar .info{
+  font-weight: 700;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 15px;
+  color: rgb(117, 117, 117);
+  
+}
+.left-sidebar a{
+  text-decoration: none;	
+}
+.photo{
+  background-image: url(../../../prof.jpg);
+  background-size: cover;
+  border-radius: 50px;  
+  height: 15vw;
+  margin-top:5px; 
+  width: 18.5vw;
+
+
+
+}
+.logout{
+  text-decoration: none;
+  font-size: 25px;
+  color: gray;
+}
+
+
+
+/* Footer   
+-----------------------------------------------------------------------------*/
+.footer {
+  bottom: 0;
+  width: 100%;
+  margin: -100px auto 0;
+  height: 100px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.75);
+  z-index: 1;
+}
+.bgfoot{
+  bottom: 0;
+  position: relative;
+  width: 100%; 
+  height: 400px;
+  background-image: url(assets/css/background/timeline/bgtimeline.png); 
+  z-index: 1;
+}
+
+
+#page-wrap { 
+  width: 600px; 
+  margin: 15px auto; 
+  position: relative; 
+}
+
